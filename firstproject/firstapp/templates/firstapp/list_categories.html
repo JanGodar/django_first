@@ -1,0 +1,3 @@
+{% for elem in cats %}
+<a href="{% url 'category' elem.id%}">{{elem.name}}</a>
+{% endfor %}
